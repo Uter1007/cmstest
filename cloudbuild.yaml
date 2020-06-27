@@ -19,5 +19,7 @@
    - 'managed'
    - '--add-cloudsql-instances'
    - 'sensocms'
+   - '--port'
+   - '80'
  images:
  - 'gcr.io/$PROJECT_ID/sensocms:$COMMIT_SHA'
