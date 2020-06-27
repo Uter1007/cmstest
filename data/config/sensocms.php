@@ -8,7 +8,7 @@
 return [
     'database' => [
         'type' => 'mysql',          // Only mysql is supported
-        'host' => '34.107.93.194',
+        'host' => '127.0.0.1',
         'port' => 3306,
         'name' => 'sensocms',
         'username' => 'sensocms',
