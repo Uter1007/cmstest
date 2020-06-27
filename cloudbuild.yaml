@@ -19,7 +19,8 @@
    - 'managed'
    - '--add-cloudsql-instances'
    - 'sensocms'
-   - '--update-env-vars INSTANCE_CONNECTION_NAME=sensotest-278921:europe-west3:sensocms'
+   - '--update-env-vars'
+   - 'INSTANCE_CONNECTION_NAME=sensotest-278921:europe-west3:sensocms'
    - '--port'
    - '80'
  images:
