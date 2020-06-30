@@ -14,7 +14,7 @@
    - '--image'
    - 'gcr.io/$PROJECT_ID/sensocms:$COMMIT_SHA'
    - '--region'
-   - 'europe-west3'
+   - 'europe-west1'
    - '--platform'
    - 'managed'
    - '--add-cloudsql-instances'
